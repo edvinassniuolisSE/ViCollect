@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Aguafina+Script');
+* {
+    padding: 0;
+    margin: 0;
+    line-height: 1.5;
+    box-sizing: border-box;
+    font-family: 'Aguafina Script', cursive;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background-color: #2B3E5D;
+    color: #fff;
+    border-bottom: 3px solid #e8491d;
+    min-height: 50px;
+}
+
+.logo-sm {
+    float: left;
+    margin-top: 20px;
+}
+
+.logo-sm img {
+    float: left;
+}
+
+nav {
+    float: right;
+    margin-top: 30px;
+}
+
+header li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header li a {
+    font-size: 24px;
+    color: #fff;
+}
+
+header li a:hover {
+    color: #e8491d;
+    text-decoration: none;
+}
+
+.logo-sm p {
+    font-size: 40px;
+    letter-spacing: 4px;
+}
+
+#showcase {
+    min-height: 400px;
+    background: url('../img/vinyl-background.jpg') no-repeat 0;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+}
+
+#showcase h1 {
+    margin: 150px 0 10px 0;
+    font-size: 55px;
+}
+
+#showcase p {
+    font-size: 20px;
+}
